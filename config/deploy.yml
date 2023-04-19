@@ -2,7 +2,7 @@
 service: my-pocketbase-app
 
 # Name of the container image.
-image: user/my-app
+image: NagariaHussain/pocket_mrsk
 
 # Deploy to these servers.
 servers:
