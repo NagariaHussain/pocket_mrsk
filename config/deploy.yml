@@ -2,7 +2,7 @@
 service: my-pocketbase-app
 
 # Name of the container image.
-image: NagariaHussain/pocket_mrsk
+image: nagariahussain/pocket_mrsk
 
 # Deploy to these servers.
 servers:
@@ -73,6 +73,5 @@ registry:
 #     accesslog.format: json
 
 # Configure a custom healthcheck (default is /up on port 3000)
-# healthcheck:
-#   path: /healthz
-#   port: 4000
+healthcheck:
+  path: /api/health
